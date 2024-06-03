@@ -13,67 +13,68 @@ import P10 from './P10'
 
 const Navigation = () => {
   return (
-    <div>
-          <Link to='/p1'>
-               <figure>
+    <div className="container mt-4 father">
+          <Link to='/p1' className="links">
+               <figure className="image-size">
                     <P1/>
                     <figcaption>FOTO 1</figcaption>
                </figure>
           </Link>
-          <Link to='/p2'>
-               <figure>
+          <Link to='/p2' className="links">
+               <figure className="image-size">
                     <P2/>
                     <figcaption>FOTO 2</figcaption>
                </figure>
           </Link>
-          <Link to='/p3'>
-               <figure>
+          <Link to='/p3'className="links">
+               <figure className="image-size">
                     <P3/>
                     <figcaption>FOTO 3</figcaption>
                </figure>
           </Link>
-          <Link to='/p4'>
-               <figure>
+          <Link to='/p4'className="links">
+               <figure className="image-size">
                     <P4/>
                     <figcaption>FOTO 4</figcaption>
                </figure>
           </Link>
-          <Link to='/p5'>
-               <figure>
+          <Link to='/p5'className="links">
+               <figure className="image-size">
                     <P5/>
                     <figcaption>FOTO 5</figcaption>
                </figure>
           </Link>
-          <Link to='/p6'>
-               <figure>
+          <Link to='/p6'className="links">
+               <figure className="image-size">
                     <P6/>
                     <figcaption>FOTO 6</figcaption>
                </figure>
           </Link>
-          <Link to='/p7'>
-               <figure>
+          <Link to='/p7'className="links">
+               <figure className="image-size">
                     <P7/>
                     <figcaption>FOTO 7</figcaption>
                </figure>
           </Link>
-          <Link to='/p8'>
-               <figure>
+          <Link to='/p8'className="links">
+               <figure className="image-size">
                     <P8/>
                     <figcaption>FOTO 8</figcaption>
                </figure>
           </Link>
-          <Link to='/p9'>
-               <figure>
+          <Link to='/p9'className="links">
+               <figure className="image-size">
                     <P9/>
                     <figcaption>FOTO 9</figcaption>
                </figure>
           </Link>
-          <Link to='/p10'>
-               <figure>
+          <Link to='/p10'className="links">
+               <figure className="image-size">
                     <P10/>
                     <figcaption>FOTO 10</figcaption>
                </figure>
           </Link>
+          
     </div>
   )
 }

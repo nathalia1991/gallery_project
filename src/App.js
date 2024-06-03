@@ -15,17 +15,20 @@ import Navigation from './components/Navigation';
 function App() {
   return (
     <Router>
+    <div className='container'>
+      <h1 id='title' className='text-center my-3'>Galeria</h1>
+    </div>
       <Routes>
-        <Route path='/p1' element={<P1/>}/>
-        <Route path='/p2' element={<P2/>}/>
-        <Route path='/p3' element={<P3/>}/>
-        <Route path='/p4' element={<P4/>}/>
-        <Route path='/p5' element={<P5/>}/>
-        <Route path='/p6' element={<P6/>}/>
-        <Route path='/p7' element={<P7/>}/>
-        <Route path='/p8' element={<P8/>}/>
-        <Route path='/p9' element={<P9/>}/>
-        <Route path='/p10' element={<P10/>}/>
+        <Route path='/p1' element={<P1 className="image-size"/>}/>
+        <Route path='/p2' element={<P2 className="image-size"/>}/>
+        <Route path='/p3' element={<P3 className="image-size"/>}/>
+        <Route path='/p4' element={<P4 className="image-size"/>}/>
+        <Route path='/p5' element={<P5 className="image-size"/>}/>
+        <Route path='/p6' element={<P6 className="image-size"/>}/>
+        <Route path='/p7' element={<P7 className="image-size"/>}/>
+        <Route path='/p8' element={<P8 className="image-size"/>}/>
+        <Route path='/p9' element={<P9 className="image-size"/>}/>
+        <Route path='/p10' element={<P10 className="image-size"/>}/>
       </Routes>
       <Navigation/>
     </Router>

@@ -3,8 +3,8 @@ import p7_ from '../images/p7.jpg'
 
 const P7 = () => {
   return (
-    <div>
-      <img src={p7_} alt="gatito" />
+    <div className='container'>
+      <img src={p7_} alt="gatito" className='image'/>
     </div>
   )
 }
